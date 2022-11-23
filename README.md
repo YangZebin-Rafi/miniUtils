@@ -1,15 +1,15 @@
 # rafi-utils
 
-- Tree-shakable ESM
-- Fully typed - with TSDocs
-- Type utilities - `Arrayable<T>`, `ElementOf<T>`, etc.
+```bash
+pnpm i rafi-utils
+```
 
-> This package is designed to be used as `devDependencies` and bundled into your dist.
+```javascript
+import {toArray} from 'rafi-utils'
 
-## Sponsors
+cosnt obj={
+  name:'rafi'
+}
 
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg'/>
-  </a>
-</p>
+console.log(toArray(obj))
+```

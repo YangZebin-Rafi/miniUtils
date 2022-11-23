@@ -1,6 +1,6 @@
 {
   "name": "rafi-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "packageManager": "pnpm@7.0.1",
   "license": "MIT",
   "repository": {
