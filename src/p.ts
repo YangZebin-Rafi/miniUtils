@@ -98,8 +98,6 @@ class PInstance<T = any> extends Promise<Awaited<T>[]> {
 
 /**
  * Utility for managing multiple promises.
- *
- * @see https://github.com/YangZebin-Rafi/rafi-utils/tree/main/docs/p.md
  * @category Promise
  * @example
  * ```
